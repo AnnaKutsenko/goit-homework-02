@@ -1,6 +1,12 @@
-header {
-    color:blue; 
-    
+.header-logo {
+    font-family: Raleway;
+    weight: 800px;
+    color:#4D5AE5;
+}
+.accent {
+    font-family:Raleway;
+    weight: 800px;
+    color:#2E2F42
 }
 body {
     font-family: ;
