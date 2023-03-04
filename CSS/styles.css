@@ -51,12 +51,43 @@ body {
 .list {
     list-style: none
 }
+.picture-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.picture-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.footer-logo {
+    font-family: Raleway, sans-serif;
+    weight: 800px;
+    font-size: 18px;
+    line-height: 1.166;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4D5AE5;
+}
+.footer-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+}
 
-}
-body {
-    font-family: ;
-    color: ;
-}
+
+
 [type="button"] {
     color:cornflowerblue;
 }
