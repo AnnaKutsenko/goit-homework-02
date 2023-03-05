@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif; 
     color: #434455;
 }
-.header-logo {
+.logo {
     font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -25,12 +25,14 @@ body {
     color: #2E2F42;
 }
 .header-mail {
+    font-style: normal
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 .header-tel {
+    font-style: normal
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -55,7 +57,9 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
+    background: #404BBF;
     color: #FFFFFF;
+    cursor: pointer
 }
 /*------Hero------*/
 .hero {
@@ -113,17 +117,6 @@ body {
 /*------Footer------*/
 .footer {
     background: #2E2F42;
-}
-.footer-logo {
-    font-family: Raleway, sans-serif;
-    weight: 800px;
-    font-size: 18px;
-    line-height: 1.166;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color:#4D5AE5;
 }
 .footer-text {
     font-family: 'Roboto';
