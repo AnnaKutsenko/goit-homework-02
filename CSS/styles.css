@@ -36,18 +36,17 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.main-link {
+.main-btn {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
- 
     letter-spacing: 0.04em;
     color: #4D5AE5;
 }
-.main-link:hover,
-.main-link:focus,
-.main-link:active {
+.main-btn:hover,
+.main-btn:focus,
+.main-btn:active {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -80,6 +79,7 @@ body {
     color: #FFFFFF;
 }
 /*-------------------*/
+main-btn
 .link {
     text-decoration: none;
 }
