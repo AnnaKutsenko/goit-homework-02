@@ -6,7 +6,6 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -25,14 +24,12 @@ body {
     color: #2E2F42;
 }
 .header-mail {
-    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 .header-tel {
-    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -40,13 +37,25 @@ body {
 }
 .main-link {
     font-family: inherit;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
  
     letter-spacing: 0.04em;
     color: #4D5AE5;
+}
+.main-link:hover,
+.main-link:focus,
+.main-link:active {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5x;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
 }
 /*------Hero------*/
 .hero {
@@ -67,11 +76,7 @@ body {
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-}
-.main-link:hover, .main-link:focus, .main-link:active {
-    color: #FFFFFF;
-    background: #404BBF;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
 }
 /*-------------------*/
 .link {
