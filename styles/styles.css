@@ -31,7 +31,9 @@ body {
     font-style: normal 
 }
 .header-mail {
+    font-family: inherit
     font-style: normal
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -85,6 +87,17 @@ body {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+}
+.hiro-button:hover, .hiro-button:focus {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5x;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    background: #404BBF;
 }
 /*-------------------*/
 .link {
