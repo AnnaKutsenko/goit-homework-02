@@ -42,42 +42,18 @@ body {
 .header-mail:hover, .header-mail:focus {
     color: #404bbf
 }
-/*------------------*/
-.main-btn {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #4D5AE5;
-    cursor: pointer;
-}
-.main-btn:hover,
-.main-btn:focus,
-.main-btn:active {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5x;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    background: #404BBF;
-    color: #FFFFFF;
-}
 /*------Hero------*/
 .hero {
     background: #2E2F42;
 }
-.hiro-title {
+.hero-title {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
-.hiro-button {
+.hero-button {
     font-family: inherit;
     background: #4D5AE5;
     font-weight: 500;
@@ -88,7 +64,8 @@ body {
     color: #FFFFFF;
     cursor: pointer;
 }
-.hiro-button:hover, .hiro-button:focus {
+.hero-button:hover, 
+.hero-button:focus {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -119,6 +96,29 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+.gal-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+.gal-btn:hover,
+.gal-btn:focus,
+.gal-btn:active {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5x;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    background: #404BBF;
+    color: #FFFFFF;
+}
 .section-title {
     font-size: 36px;
     line-height: 1.11;
@@ -127,7 +127,7 @@ body {
     text-transform: capitalize;
     color: #2E2F42;
 }
-.section-employees {
+.team {
     background: #F4F4FD;
 }
 /*------Footer------*/
